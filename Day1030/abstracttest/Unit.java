@@ -11,4 +11,8 @@ public abstract class Unit { // 추상 메소드뿐만 아니라 일반 메소�
 	public void print() {
 		System.out.println("아무거나");
 	}
+	
+	static void abbb() {
+		System.out.println("Aaa");
+	}
 }

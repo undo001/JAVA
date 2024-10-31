@@ -1,11 +1,9 @@
 package inheritance;
 
-public class Camera {
-	void takepicture() {
-		System.out.println("사진을 찍는다.");
-	}
-	
-	void a() {
-		System.out.println("c");
+public interface Camera {
+	public abstract void takepicture(); // public abstract 생략가능
+
+	default void abc() {
+		System.out.println("카메라 abc");
 	}
 }
